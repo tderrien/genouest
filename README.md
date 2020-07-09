@@ -1,5 +1,6 @@
 # Genouest data structure
-Data organization on [genouest bioinformatic platform](https://www.genouest.org) and (hopefully) useful tools.
+Data organization on [genouest bioinformatic platform](https://www.genouest.org) and (hopefully) useful tools.   
+Feel free to check many useful informations on [genouest usage](https://help.genouest.org/usage/cluster/#storage).
 
 Our `$HOME` are located in `/home/genouest/cnrs_umr6290/` and we have a private storage here : `/grous/dog/`.
 Since we are in EU, we aim at using EnsEMBL genome convention *e.g.* wihtout `chr`.
