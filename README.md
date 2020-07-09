@@ -1,7 +1,8 @@
-# genouest
+# Genouest data structure
 Data organization on [genouest bioinformatic platform](www.genouest.org) and (hopefully) useful tools.
 
 Our `$HOME` are located in `/home/genouest/cnrs_umr6290/` and we have a private storage here : `/grous/dog/`.
+Since we are in EU, we aim at using EnsEMBL genome convention *e.g.* wihtout `chr`.
 
 Then useful canine resources could be accessed here :
 
@@ -9,7 +10,8 @@ Then useful canine resources could be accessed here :
 Dog genome sequence :          /groups/dog/data/canFam3/sequence/softmasked/Canis_familiaris.CanFam3.1.72.dna_sm.toplevel.fa
 Dog genome annotations :
 	- version Ensembl (v94) :     /groups/dog/data/canFam3/annotation/Ensembl94/Canis_familiaris.CanFam3.1.94.gtf
-	- version 3.2 (Wucher, 2017): /groups/dog/data/canFam3/annotation/canfam3.2/canfam3.2.gtf
+	- version 3.2 (Wucher, 2017): /groups/dog/data/canFam3/annotation/canfam3.2/canfam3.2.gtf # on [UCSC track hub](http://tools.genouest.org/data/tderrien/canFam3.1p2/annotation/trackhub2/canfam3.1p_trackhub/hub.txt)
+
 - Polymorphisms:
 	- SNPs  DBVDC (Tosso/Vidhya):	/groups/dog/data/canFam3/variation/dogs.648.vars.flt.ann.vcf.gz
 	- SNPs de DB_SNPs (v151, 5M):	/groups/dog/data/canFam3/variation/Ensembl/canis_familiaris_v94.vcf.gz
@@ -28,7 +30,7 @@ Then data related to (dog) NGS project are in `/groups/dog/data/canFam3/NGS/` an
 			=> BAM					: BAM Files
 			=> FASTQ				: FASTQ Files
 			=> RESULTS				: Results linked to analysis on the project
-				=> version d’annotation	: répertoire qui liste la version d’annotation utilisée pour l’analyse e.g:  on_canfam3 (Ensembl) ou on_canfam3.2
+				=> version d’annotation	: may depend on the used genome annotation version on_canfam3 (Ensembl) ou on_canfam3.2
 ```
 
 For instance, the data structure is as followed (July 2020):
