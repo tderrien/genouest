@@ -1,9 +1,9 @@
 # genouest
-Data organization on genouest bioifinormatic pltaform and (hopefully) useful tools
+Data organization on [genouest bioinformatic platform](www.genouest.org) and (hopefully) useful tools.
 
-Our private storage is located here `/grous/dog/`.
+Our `$HOME` are located in `/home/genouest/cnrs_umr6290/` and we have a private storage here : `/grous/dog/`.
 
-Then useful resources could be accessed here :
+Then useful canine resources could be accessed here :
 
 ```
 Dog genome sequence :          /groups/dog/data/canFam3/sequence/softmasked/Canis_familiaris.CanFam3.1.72.dna_sm.toplevel.fa
