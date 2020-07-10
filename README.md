@@ -10,7 +10,7 @@ Then useful canine resources could be accessed here :
 ```
 Dog genome sequence :          /groups/dog/data/canFam3/sequence/softmasked/Canis_familiaris.CanFam3.1.72.dna_sm.toplevel.fa
 Dog genome annotations :
-	- version Ensembl (v94) :     /groups/dog/data/canFam3/annotation/Ensembl94/Canis_familiaris.CanFam3.1.94.gtf
+	- version Ensembl (v99) :     /groups/dog/data/canFam3/annotation/Ensembl99/Canis_familiaris.CanFam3.1.99.gtf
 	- version 3.2 (Wucher, 2017): /groups/dog/data/canFam3/annotation/canfam3.2/canfam3.2.gtf # on [UCSC track hub](http://tools.genouest.org/data/tderrien/canFam3.1p2/annotation/trackhub2/canfam3.1p_trackhub/hub.txt)
 
 - Polymorphisms:
