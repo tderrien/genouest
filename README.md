@@ -3,12 +3,15 @@ Data organization on [genouest bioinformatic platform](https://www.genouest.org)
 Feel free to check many useful informations on [genouest usage](https://help.genouest.org/usage/cluster/#storage).
 
 Our `$HOME` are located in `/home/genouest/cnrs_umr6290/` and we have a private storage here : `/grous/dog/`.
-Since we are in EU, we aim at using EnsEMBL genome convention *e.g.* wihtout `chr`.
+Since we are in EU (!) , we aim at using EnsEMBL genome convention *e.g.* wihtout `chr`.
 
 Then useful canine resources could be accessed here :
 
 ```
-Dog genome sequence :          /groups/dog/data/canFam3/sequence/softmasked/Canis_familiaris.CanFam3.1.72.dna_sm.toplevel.fa
+Dog genome sequence:
+	- canFam3 :         /groups/dog/data/canFam3/sequence/softmasked/Canis_familiaris.CanFam3.1.72.dna_sm.toplevel.fa
+	- Tasha4  :         /groups/dog/data/Tasha4.0/sequence/Tasha4.renamed.fasta.gz
+	- canFam4 (UCSC) : /groups/dog/data/canFam4/sequence/canFam4.fa.gz
 Dog genome annotations :
 	- version Ensembl (v99) :     /groups/dog/data/canFam3/annotation/Ensembl99/Canis_familiaris.CanFam3.1.99.gtf
 	- version 3.2 (Wucher, 2017): /groups/dog/data/canFam3/annotation/canfam3.2/canfam3.2.gtf # on [UCSC track hub](http://tools.genouest.org/data/tderrien/canFam3.1p2/annotation/trackhub2/canfam3.1p_trackhub/hub.txt)
