@@ -57,7 +57,7 @@ $ tree -L 3 -d ./
 ## Hopefully useful tools 
  - file format parser :  `~tderrien/bin/convert`
  - usefuls scripts from the team : `/groups/dog/script/ # (need to be reorganized)`
- - after connexion on a specific node : `source /local/env/env` # https://help.genouest.org/usage/slurm/
+ - after connexion on a specific node : `source /local/env/env_PROGNAME` # https://help.genouest.org/usage/slurm/
  
  
 
