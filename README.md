@@ -1,4 +1,4 @@
-# Genouest data structure
+## Genouest data structure organization
 Data organization on [genouest bioinformatic platform](https://www.genouest.org) and (hopefully) useful tools.   
 Feel free to check many useful informations on [genouest usage](https://help.genouest.org/usage/cluster/#storage).
 
@@ -53,3 +53,11 @@ $ tree -L 3 -d ./
 |       |-- FASTQ
 |       `-- RESULTS
 ```
+
+## Hopefully useful tools 
+ - file format parser :  `~tderrien/bin/convert`
+ - usefuls scripts from the team : `/groups/dog/script/ # (need to be reorganized)`
+ - after connexion on a specific node : `source /local/env/env` # https://help.genouest.org/usage/slurm/
+ 
+ 
+
