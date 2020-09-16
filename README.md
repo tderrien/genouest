@@ -1,3 +1,8 @@
+
+ 1. [Genouest data structure organization](#genouest-data-structure-organization)
+ 2. [Hopefully useful tools?](#hopefully-useful-tools)
+ 3. [Canfam3 extended annotation track](#canfam3-extended-annotation-track)
+ 
 ## Genouest data structure organization
 Data organization on [genouest bioinformatic platform](https://www.genouest.org) and (hopefully) useful tools.   
 Feel free to check many useful informations on [genouest usage](https://help.genouest.org/usage/cluster/#storage).
@@ -60,4 +65,13 @@ $ tree -L 3 -d ./
  - after connexion on a specific node : `source /local/env/env_PROGNAME` # https://help.genouest.org/usage/slurm/
  
  
+## Canfam3 extended annotation track :
+You can load the canFam3.2 gene annotation track (Wucher et al, 2017) on [UCSC genome browser](http://genome.ucsc.edu/cgi-bin/hgGateway?clade=mammal&org=Dog) :
+
+- UCSC genome browser (on the top panel My Data > Track Hubs) :
+- click "My Hubs" and copy/paste the URL and  "Add Hub"  `http://tools.genouest.org/data/tderrien/canFam3.1p2/annotation/trackhub2/canfam3.1p_trackhub/hub.txt`
+
+or more directly
+http://genome.ucsc.edu/s/thomasderrien/_canFam3.2_
+
 
