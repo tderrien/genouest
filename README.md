@@ -74,6 +74,7 @@ You can load the canFam3.2 gene annotation track (Wucher et al, 2017) on [UCSC g
 - click *My Hubs* and copy/paste the URL `http://tools.genouest.org/data/tderrien/canFam3.1p2/annotation/trackhub2/canfam3.1p_trackhub/hub.txt`
 - click *Add Hub*
 
-#or more directly : http://genome.ucsc.edu/s/thomasderrien/_canFam3.2_
-
+<!---
+or more directly : http://genome.ucsc.edu/s/thomasderrien/_canFam3.2_
+-->
 
