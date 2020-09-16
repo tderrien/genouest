@@ -68,10 +68,11 @@ $ tree -L 3 -d ./
 ## Canfam3 extended annotation track :
 You can load the canFam3.2 gene annotation track (Wucher et al, 2017) on [UCSC genome browser](http://genome.ucsc.edu/cgi-bin/hgGateway?clade=mammal&org=Dog) :
 
-- UCSC genome browser (on the top panel My Data > Track Hubs) :
-- click "My Hubs" and copy/paste the URL and  "Add Hub"  `http://tools.genouest.org/data/tderrien/canFam3.1p2/annotation/trackhub2/canfam3.1p_trackhub/hub.txt`
+- select top panel *My Data > Track Hub*
+- click "My Hubs" and copy/paste the URL `http://tools.genouest.org/data/tderrien/canFam3.1p2/annotation/trackhub2/canfam3.1p_trackhub/hub.txt`
+- click "Add Hub"
 
 or more directly
-http://genome.ucsc.edu/s/thomasderrien/_canFam3.2_
+http://genome.ucsc.edu/s/thomasderrien/_canFam3.2
 
 
